@@ -1,44 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>YouCode School - Classroom Void | Four card feature section</title>
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+    <title>YouCode School - Classroom Void | Four card feature section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+
+      #elemnet1{  border-top:5px solid  hsl(180, 62%, 55%) !important;}
+            #elemnet2{}
+      #elemnet3{}
+
+            #elemnet4{}
+
+      body{
+        margin: 0px;
+        background-color: white;
+      }
+      .container__card{
+        padding-top: 50px;
+        
+       height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7%;
+        /* background-color: black; */
+        align-items: center;
+        justify-content: center;
+
+      }
+    
+      .sous__card{
+               border-radius: 10px; 
+               
+box-shadow: 2px 2px 20px gray;
+
+        height: 40%;
+        background-color: aquamarine;
+      }
+        .content{
+          display: flex;
+          justify-content: center;
+
+        background-color: aquamarine;
+      }
+      .description{
+        width: 60%;
+      }
+      .container__sous-card{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+     }
+      .card{
+        /* width: 28%; */
+      
+        box-shadow: 2px 2px 20px gray;
+
+        height: 40%;
+        border-radius: 20px ;
+        background-color:white;
+      }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  </head>
+  <body>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <section >
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="content">
+        <div class="description">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit.</p>
+</div>
+      </div>
+      <div  class="container__card" >
+        <!-- first card -->
+        <div 
+        id="elemnet1" class="card" >
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>description</p>
+          <a href=""></a>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        </div>
+        <!-- second card -->
+        
+          <div id="2" class="container__sous-card">
+            <div class="sous__card" >
+              <h2>Lorem, ipsum dolor.</h2>
+              <p>description</p>
+              <a href></a>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+            </div>
 
-  
-  <footer>
-    <p class="attribution">
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
-</html>
+            
+              <div id="3" class="sous__card" >
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>description 2</p>
+                <a href></a>
+
+              </div>
+
+             <!-- last card -->
+
+
+
+
+          </div>
+          <div id="4"  class="card" >
+              <h2>Lorem, ipsum dolor.</h2>
+              <p>description3</p>
+              <a href=""></a>
+            </div>
+      </div>
+        </section>
+
+        <footer>
+          <p class="attribution">
+            Coded by <a href="#">Your Name Here</a>.
+
+          </p>
+        </footer>
+      </body>
+    </html>
